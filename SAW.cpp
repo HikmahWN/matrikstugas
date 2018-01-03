@@ -17,7 +17,7 @@ int main(){
 	cout.setf(ios::showpoint);
 	cout.precision(4);
 	
-	
+// menampilkan matriks X	
 	cout << "MATRIKS X :"<<endl;	
 	a[0][0]=4;	a[0][1]=4;	a[0][2]=5;	a[0][3]=3;	a[0][4]=3;
 	a[1][0]=3;	a[1][1]=3;	a[1][2]=4;	a[1][3]=2;	a[1][4]=3;
@@ -28,7 +28,6 @@ int main(){
 			cout<<a[k][l]<<" | ";
 		}cout<<endl;
 	}
-
 	
 	// AMBIL NILAI MAX TIAP KRITERIA
 	for(int i=0;i<5;i++) {
@@ -46,20 +45,21 @@ int main(){
 			cout<<r[i][j]<<" | ";}
 			cout<<endl;	}
 
-
+// menampilkan MATRIKS W
 	cout<<endl<<"BOBOT W : "<<endl;
 	for(int i=0;i<5;i++){
 	cout<<w[i]<<" | ";
 	}cout<<endl;
 		
-	// MATRIKS R * W
+	// menampilkan MATRIKS R * W
 	cout<<endl<<"MATRIK R * W : "<<endl;
 	for(int i=0;i<3;i++){
 	for(int j=0;j<5;j++){
 	rw[i][j]=r[i][j]*w[j]; cout<<rw[i][j]<<" | ";
 		}cout<<endl;
 	}
-		
+
+//Menampilkan Hasil Akhir		
 	cout<<endl<<"HASIL AKHIR : "<<endl;
 	for(int i=0;i<3;i++){
 	for(int j=0;j<5;j++){
