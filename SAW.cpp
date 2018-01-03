@@ -46,6 +46,12 @@ int main(){
 	r[1][0] = (x[1][0]/maxc[0]);	r[1][1] = (x[1][1]/maxc[1]);	r[1][2] = (x[1][2]/maxc[2]);	r[1][3] = (x[1][3]/maxc[3]);	r[1][4] = (x[1][4]/maxc[4]);
 	r[2][0] = (x[2][0]/maxc[0]);	r[2][1] = (x[2][1]/maxc[1]);	r[2][2] = (x[2][2]/maxc[2]);	r[2][3] = (x[2][3]/maxc[3]);	r[2][4] = (x[2][4]/maxc[4]);	
 
+	cout<<endl<<"BOBOT R : "<<endl;	
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			cout<<r[i][j]<<" | ";}
+			cout<<endl;	}
+
 	// MATRIKS R * W
 	RWa1c1 = Ra1c1*w1;
 	RWa1c2 = Ra1c2*w2;
@@ -70,12 +76,7 @@ int main(){
 	ha2=RWa2c1+RWa2c2+RWa2c3+RWa2c4+RWa2c5;
 	ha3=RWa3c1+RWa3c2+RWa3c3+RWa3c4+RWa3c5;
 		
-	// MENAMPILKAN NILAI
-	cout << "MATRIKS R :"<<endl;
-	cout << Ra1c1 <<" | "<<Ra1c2<<" | "<<Ra1c3<<" | "<<Ra1c4<<" | "<<Ra1c5<<endl;
-	cout << Ra2c1 <<" | "<<Ra2c2<<" | "<<Ra2c3<<" | "<<Ra2c4<<" | "<<Ra2c5<<endl;
-	cout << Ra3c1 <<" | "<<Ra3c2<<" | "<<Ra3c3<<" | "<<Ra3c4<<" | "<<Ra3c5<<endl;
-	cout << endl;
+		
 	cout << "BOBOT W :"<<endl;
 	cout << w1 <<" | "<<w2<<" | "<<w3<<" | "<<w4<<" | "<<w5<<endl;
 	cout << endl;
