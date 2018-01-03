@@ -60,8 +60,11 @@ int main(){
 		}cout<<endl;
 	}
 		
-	cout << "HASIL AKHIR  :"<<endl;
-	cout << "Nilai A1 : "<<ha1<<endl;
-	cout << "Nilai A2 : "<<ha2<<endl;
-	cout << "Nilai A3 : "<<ha3<<endl;
+	cout<<endl<<"HASIL AKHIR : "<<endl;
+	for(int i=0;i<3;i++){
+	for(int j=0;j<5;j++){
+	ha[i]+=rw[i][j];
+		}
+	}
+	cout<<"Nilai A1 : "<<ha[0]<<endl<<"Nilai A2 : "<<ha[1]<<endl<<"Nilai A3 : "<<ha[2]<<endl;
 }
