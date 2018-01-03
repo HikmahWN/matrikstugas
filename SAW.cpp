@@ -8,9 +8,9 @@ int main(){
 	double r [3][5]= {r[0][1],r[2][4]};
 	double rw [3][5]= {rw[0][1],rw[2][4]};
 	
-	double w1,w2,w3,w4,w5;
-	double mc1,mc2,mc3,mc4,mc5;
-	double ha1,ha2,ha3;
+	double w[5]={5,3,4,4,2};
+	double maxc [5]= {maxc[0],maxc[4]};
+	double ha[3];
 	
 	// SETTING PRESISI DESIMAL
 	cout.setf(ios::fixed);
