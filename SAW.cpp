@@ -16,14 +16,8 @@ int main(){
 	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
 	cout.precision(4);
-
-	// ISI DATA
-	w1=5;
-	w2=3;
-	w3=4;
-	w4=4;
-	w5=2;
-
+	
+	
 	cout << "MATRIKS X :"<<endl;	
 	x[0][0]=4;	x[0][1]=4;	x[0][2]=5;	x[0][3]=3;	x[0][4]=3;
 	x[1][0]=3;	x[1][1]=3;	x[1][2]=4;	x[1][3]=2;	x[1][4]=3;
@@ -52,6 +46,12 @@ int main(){
 			cout<<r[i][j]<<" | ";}
 			cout<<endl;	}
 
+
+	cout<<endl<<"BOBOT W : "<<endl;
+	for(int i=0;i<5;i++){
+	cout<<w[i]<<" | ";
+	}cout<<endl;
+		
 	// MATRIKS R * W
 	RWa1c1 = Ra1c1*w1;
 	RWa1c2 = Ra1c2*w2;
@@ -77,9 +77,6 @@ int main(){
 	ha3=RWa3c1+RWa3c2+RWa3c3+RWa3c4+RWa3c5;
 		
 		
-	cout << "BOBOT W :"<<endl;
-	cout << w1 <<" | "<<w2<<" | "<<w3<<" | "<<w4<<" | "<<w5<<endl;
-	cout << endl;
 	cout << "MATRIKS R * W :"<<endl;
 	cout << RWa1c1 <<" | "<<RWa1c2<<" | "<<RWa1c3<<" | "<<RWa1c4<<" | "<<RWa1c5<<endl;
 	cout << RWa2c1 <<" | "<<RWa2c2<<" | "<<RWa2c3<<" | "<<RWa2c4<<" | "<<RWa2c5<<endl;
