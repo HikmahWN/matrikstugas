@@ -42,24 +42,10 @@ int main(){
 	}
 
 	// BUAT MATRIKS R
-	Ra1c1 = (a1c1/mc1);
-	Ra1c2 = (a1c2/mc2);
-	Ra1c3 = (a1c3/mc3);
-	Ra1c4 = (a1c4/mc4);
-	Ra1c5 = (a1c5/mc5);
-	
-	Ra2c1 = (a2c1/mc1);
-	Ra2c2 = (a2c2/mc2);
-	Ra2c3 = (a2c3/mc3);
-	Ra2c4 = (a2c4/mc4);
-	Ra2c5 = (a2c5/mc5);
-	
-	Ra3c1 = (a3c1/mc1);
-	Ra3c2 = (a3c2/mc2);
-	Ra3c3 = (a3c3/mc3);
-	Ra3c4 = (a3c4/mc4);
-	Ra3c5 = (a3c5/mc5);
-	
+	r[0][0] = (x[0][0]/maxc[0]);	r[0][1] = (x[0][1]/maxc[1]);	r[0][2] = (x[0][2]/maxc[2]);	r[0][3] = (x[0][3]/maxc[3]);	r[0][4] = (x[0][4]/maxc[4]);
+	r[1][0] = (x[1][0]/maxc[0]);	r[1][1] = (x[1][1]/maxc[1]);	r[1][2] = (x[1][2]/maxc[2]);	r[1][3] = (x[1][3]/maxc[3]);	r[1][4] = (x[1][4]/maxc[4]);
+	r[2][0] = (x[2][0]/maxc[0]);	r[2][1] = (x[2][1]/maxc[1]);	r[2][2] = (x[2][2]/maxc[2]);	r[2][3] = (x[2][3]/maxc[3]);	r[2][4] = (x[2][4]/maxc[4]);	
+
 	// MATRIKS R * W
 	RWa1c1 = Ra1c1*w1;
 	RWa1c2 = Ra1c2*w2;
