@@ -29,6 +29,12 @@ int main(){
 	x[1][0]=3;	x[1][1]=3;	x[1][2]=4;	x[1][3]=2;	x[1][4]=3;
 	x[2][0]=5;	x[2][1]=4;	x[2][2]=2;	x[2][3]=2;	x[2][4]=2;
 
+	for(int k=0;k<3;k++){
+	for(int l=0;l<5;l++){
+			cout<<x[k][l]<<" | ";
+		}cout<<endl;
+	}
+
 	
 	// AMBIL NILAI MAX TIAP KRITERIA
 	mc1=max(a1c1,max(a2c1,a3c1));
@@ -81,11 +87,6 @@ int main(){
 	ha3=RWa3c1+RWa3c2+RWa3c3+RWa3c4+RWa3c5;
 		
 	// MENAMPILKAN NILAI
-	cout << "MATRIKS X :"<<endl;
-	cout << a1c1 <<" | "<<a1c2<<" | "<<a1c3<<" | "<<a1c4<<" | "<<a1c5<<endl;
-	cout << a2c1 <<" | "<<a2c2<<" | "<<a2c3<<" | "<<a2c4<<" | "<<a2c5<<endl;
-	cout << a3c1 <<" | "<<a3c2<<" | "<<a3c3<<" | "<<a3c4<<" | "<<a3c5<<endl;
-	cout << endl;
 	cout << "MATRIKS R :"<<endl;
 	cout << Ra1c1 <<" | "<<Ra1c2<<" | "<<Ra1c3<<" | "<<Ra1c4<<" | "<<Ra1c5<<endl;
 	cout << Ra2c1 <<" | "<<Ra2c2<<" | "<<Ra2c3<<" | "<<Ra2c4<<" | "<<Ra2c5<<endl;
