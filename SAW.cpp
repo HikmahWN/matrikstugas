@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 	// DEKLARASI VARIABEL
-	a[3][5] = {a[0][1], a[2][4]};
+	double	a[3][5] = {a[0][1], a[2][4]};
 	
 	double Ra1c1,Ra1c2,Ra1c3,Ra1c4,Ra1c5;
 	double Ra2c1,Ra2c2,Ra2c3,Ra2c4,Ra2c5;
